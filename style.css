@@ -1,0 +1,24 @@
+.btn-primary
+{
+  background-color: aquamarine;
+  color: cadetblue;
+}
+
+.btn-primary:hover
+{
+  background-color: cadetblue;
+  color: aquamarine;
+}
+
+.myText
+{
+  color: orangered;
+}
+
+@media screen and (max-width: 600px)
+{
+  .myText
+  {
+    color: dodgerblue;
+  }
+}
